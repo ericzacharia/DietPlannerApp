@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C08B5B42620A1C100463F74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B5B32620A1C100463F74 /* AppDelegate.swift */; };
+		2C08B5B62620A1C100463F74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B5B52620A1C100463F74 /* SceneDelegate.swift */; };
+		2C08B5B82620A1C100463F74 /* FoodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B5B72620A1C100463F74 /* FoodListViewController.swift */; };
+		2C08B5BB2620A1C100463F74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C08B5B92620A1C100463F74 /* Main.storyboard */; };
+		2C08B5BE2620A1C100463F74 /* DietPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B5BC2620A1C100463F74 /* DietPlanner.xcdatamodeld */; };
+		2C08B5C32620A1D100463F74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C08B5C12620A1D100463F74 /* LaunchScreen.storyboard */; };
+		2C08B5CE2620A1D300463F74 /* DietPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B5CD2620A1D300463F74 /* DietPlannerTests.swift */; };
+		2C08B5D92620A1D300463F74 /* DietPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B5D82620A1D300463F74 /* DietPlannerUITests.swift */; };
+		2C08B5F22620B02800463F74 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C08B5F12620B02800463F74 /* FoodCell.swift */; };
+		2C3A201C262119DC00E091F8 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A201B262119DC00E091F8 /* Food.swift */; };
+		2C3A20212621256C00E091F8 /* FoodService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A20202621256A00E091F8 /* FoodService.swift */; };
+		2C545AE926335DB700AF9CED /* FoodTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C545AE826335DB700AF9CED /* FoodTest.swift */; };
+		2C545AEE2633986700AF9CED /* FoodServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C545AED2633986700AF9CED /* FoodServiceTests.swift */; };
+		2C545AF326339B0200AF9CED /* FoodListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C545AF226339B0200AF9CED /* FoodListViewControllerTests.swift */; };
+		2C5BE48E264082D1001C3847 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5BE48D264082D1001C3847 /* Spinner.swift */; };
+		2C620CAE2666DA19003F9804 /* MacroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C620CAD2666DA19003F9804 /* MacroViewController.swift */; };
+		2C620CB42666E295003F9804 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2C620CB32666E295003F9804 /* SwiftUICharts */; };
+		2C9C6386262B6D16001AD36E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C6385262B6D16001AD36E /* DetailViewController.swift */; };
+		2C9C6390262BCE4F001AD36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C08B5BF2620A1D100463F74 /* Assets.xcassets */; };
+		2C9C639E262CBB34001AD36E /* FoodDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C639D262CBB34001AD36E /* FoodDescription.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C08B5CA2620A1D300463F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C08B5A82620A1C100463F74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C08B5AF2620A1C100463F74;
+			remoteInfo = DietPlanner;
+		};
+		2C08B5D52620A1D300463F74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C08B5A82620A1C100463F74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C08B5AF2620A1C100463F74;
+			remoteInfo = DietPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C08B5B02620A1C100463F74 /* DietPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C08B5B32620A1C100463F74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C08B5B52620A1C100463F74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C08B5B72620A1C100463F74 /* FoodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewController.swift; sourceTree = "<group>"; };
+		2C08B5BA2620A1C100463F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C08B5BD2620A1C100463F74 /* DietPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DietPlanner.xcdatamodel; sourceTree = "<group>"; };
+		2C08B5BF2620A1D100463F74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C08B5C22620A1D100463F74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C08B5C42620A1D100463F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C08B5C92620A1D300463F74 /* DietPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C08B5CD2620A1D300463F74 /* DietPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlannerTests.swift; sourceTree = "<group>"; };
+		2C08B5CF2620A1D300463F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C08B5D42620A1D300463F74 /* DietPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DietPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C08B5D82620A1D300463F74 /* DietPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietPlannerUITests.swift; sourceTree = "<group>"; };
+		2C08B5DA2620A1D300463F74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C08B5F12620B02800463F74 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		2C3A201B262119DC00E091F8 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		2C3A20202621256A00E091F8 /* FoodService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodService.swift; sourceTree = "<group>"; };
+		2C545AE826335DB700AF9CED /* FoodTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTest.swift; sourceTree = "<group>"; };
+		2C545AED2633986700AF9CED /* FoodServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodServiceTests.swift; sourceTree = "<group>"; };
+		2C545AF226339B0200AF9CED /* FoodListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListViewControllerTests.swift; sourceTree = "<group>"; };
+		2C5BE48D264082D1001C3847 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		2C620CAD2666DA19003F9804 /* MacroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacroViewController.swift; sourceTree = "<group>"; };
+		2C9C6385262B6D16001AD36E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2C9C639D262CBB34001AD36E /* FoodDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDescription.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C08B5AD2620A1C100463F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C620CB42666E295003F9804 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C08B5C62620A1D300463F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C08B5D12620A1D300463F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C08B5A72620A1C100463F74 = {
+			isa = PBXGroup;
+			children = (
+				2C08B5B22620A1C100463F74 /* DietPlanner */,
+				2C08B5CC2620A1D300463F74 /* DietPlannerTests */,
+				2C08B5D72620A1D300463F74 /* DietPlannerUITests */,
+				2C08B5B12620A1C100463F74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C08B5B12620A1C100463F74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B5B02620A1C100463F74 /* DietPlanner.app */,
+				2C08B5C92620A1D300463F74 /* DietPlannerTests.xctest */,
+				2C08B5D42620A1D300463F74 /* DietPlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C08B5B22620A1C100463F74 /* DietPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A20262621280500E091F8 /* Data */,
+				2C3A20252621271500E091F8 /* Controllers */,
+				2C08B5B32620A1C100463F74 /* AppDelegate.swift */,
+				2C3A20272621282C00E091F8 /* Views */,
+				2C08B5B52620A1C100463F74 /* SceneDelegate.swift */,
+				2C08B5B92620A1C100463F74 /* Main.storyboard */,
+				2C08B5BF2620A1D100463F74 /* Assets.xcassets */,
+				2C08B5C12620A1D100463F74 /* LaunchScreen.storyboard */,
+				2C08B5C42620A1D100463F74 /* Info.plist */,
+				2C08B5BC2620A1C100463F74 /* DietPlanner.xcdatamodeld */,
+				2C5BE48D264082D1001C3847 /* Spinner.swift */,
+			);
+			path = DietPlanner;
+			sourceTree = "<group>";
+		};
+		2C08B5CC2620A1D300463F74 /* DietPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B5CD2620A1D300463F74 /* DietPlannerTests.swift */,
+				2C08B5CF2620A1D300463F74 /* Info.plist */,
+				2C545AE826335DB700AF9CED /* FoodTest.swift */,
+				2C545AED2633986700AF9CED /* FoodServiceTests.swift */,
+				2C545AF226339B0200AF9CED /* FoodListViewControllerTests.swift */,
+			);
+			path = DietPlannerTests;
+			sourceTree = "<group>";
+		};
+		2C08B5D72620A1D300463F74 /* DietPlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B5D82620A1D300463F74 /* DietPlannerUITests.swift */,
+				2C08B5DA2620A1D300463F74 /* Info.plist */,
+			);
+			path = DietPlannerUITests;
+			sourceTree = "<group>";
+		};
+		2C3A20252621271500E091F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B5B72620A1C100463F74 /* FoodListViewController.swift */,
+				2C9C6385262B6D16001AD36E /* DetailViewController.swift */,
+				2C620CAD2666DA19003F9804 /* MacroViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2C3A20262621280500E091F8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A201B262119DC00E091F8 /* Food.swift */,
+				2C3A20202621256A00E091F8 /* FoodService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2C3A20272621282C00E091F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C08B5F12620B02800463F74 /* FoodCell.swift */,
+				2C9C639D262CBB34001AD36E /* FoodDescription.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C08B5AF2620A1C100463F74 /* DietPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C08B5DD2620A1D300463F74 /* Build configuration list for PBXNativeTarget "DietPlanner" */;
+			buildPhases = (
+				2C08B5AC2620A1C100463F74 /* Sources */,
+				2C08B5AD2620A1C100463F74 /* Frameworks */,
+				2C08B5AE2620A1C100463F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DietPlanner;
+			packageProductDependencies = (
+				2C620CB32666E295003F9804 /* SwiftUICharts */,
+			);
+			productName = DietPlanner;
+			productReference = 2C08B5B02620A1C100463F74 /* DietPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C08B5C82620A1D300463F74 /* DietPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C08B5E02620A1D300463F74 /* Build configuration list for PBXNativeTarget "DietPlannerTests" */;
+			buildPhases = (
+				2C08B5C52620A1D300463F74 /* Sources */,
+				2C08B5C62620A1D300463F74 /* Frameworks */,
+				2C08B5C72620A1D300463F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C08B5CB2620A1D300463F74 /* PBXTargetDependency */,
+			);
+			name = DietPlannerTests;
+			productName = DietPlannerTests;
+			productReference = 2C08B5C92620A1D300463F74 /* DietPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C08B5D32620A1D300463F74 /* DietPlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C08B5E32620A1D300463F74 /* Build configuration list for PBXNativeTarget "DietPlannerUITests" */;
+			buildPhases = (
+				2C08B5D02620A1D300463F74 /* Sources */,
+				2C08B5D12620A1D300463F74 /* Frameworks */,
+				2C08B5D22620A1D300463F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C08B5D62620A1D300463F74 /* PBXTargetDependency */,
+			);
+			name = DietPlannerUITests;
+			productName = DietPlannerUITests;
+			productReference = 2C08B5D42620A1D300463F74 /* DietPlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C08B5A82620A1C100463F74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2C08B5AF2620A1C100463F74 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2C08B5C82620A1D300463F74 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2C08B5AF2620A1C100463F74;
+					};
+					2C08B5D32620A1D300463F74 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2C08B5AF2620A1C100463F74;
+					};
+				};
+			};
+			buildConfigurationList = 2C08B5AB2620A1C100463F74 /* Build configuration list for PBXProject "DietPlanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C08B5A72620A1C100463F74;
+			packageReferences = (
+				2C620CB22666E295003F9804 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 2C08B5B12620A1C100463F74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C08B5AF2620A1C100463F74 /* DietPlanner */,
+				2C08B5C82620A1D300463F74 /* DietPlannerTests */,
+				2C08B5D32620A1D300463F74 /* DietPlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C08B5AE2620A1C100463F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C08B5C32620A1D100463F74 /* LaunchScreen.storyboard in Resources */,
+				2C9C6390262BCE4F001AD36E /* Assets.xcassets in Resources */,
+				2C08B5BB2620A1C100463F74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C08B5C72620A1D300463F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C08B5D22620A1D300463F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C08B5AC2620A1C100463F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C620CAE2666DA19003F9804 /* MacroViewController.swift in Sources */,
+				2C9C6386262B6D16001AD36E /* DetailViewController.swift in Sources */,
+				2C08B5B82620A1C100463F74 /* FoodListViewController.swift in Sources */,
+				2C08B5B42620A1C100463F74 /* AppDelegate.swift in Sources */,
+				2C08B5F22620B02800463F74 /* FoodCell.swift in Sources */,
+				2C9C639E262CBB34001AD36E /* FoodDescription.swift in Sources */,
+				2C08B5BE2620A1C100463F74 /* DietPlanner.xcdatamodeld in Sources */,
+				2C08B5B62620A1C100463F74 /* SceneDelegate.swift in Sources */,
+				2C3A201C262119DC00E091F8 /* Food.swift in Sources */,
+				2C3A20212621256C00E091F8 /* FoodService.swift in Sources */,
+				2C5BE48E264082D1001C3847 /* Spinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C08B5C52620A1D300463F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C08B5CE2620A1D300463F74 /* DietPlannerTests.swift in Sources */,
+				2C545AEE2633986700AF9CED /* FoodServiceTests.swift in Sources */,
+				2C545AF326339B0200AF9CED /* FoodListViewControllerTests.swift in Sources */,
+				2C545AE926335DB700AF9CED /* FoodTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C08B5D02620A1D300463F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C08B5D92620A1D300463F74 /* DietPlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C08B5CB2620A1D300463F74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C08B5AF2620A1C100463F74 /* DietPlanner */;
+			targetProxy = 2C08B5CA2620A1D300463F74 /* PBXContainerItemProxy */;
+		};
+		2C08B5D62620A1D300463F74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C08B5AF2620A1C100463F74 /* DietPlanner */;
+			targetProxy = 2C08B5D52620A1D300463F74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C08B5B92620A1C100463F74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C08B5BA2620A1C100463F74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C08B5C12620A1D100463F74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C08B5C22620A1D100463F74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C08B5DB2620A1D300463F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C08B5DC2620A1D300463F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C08B5DE2620A1D300463F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JUWYS29JU;
+				INFOPLIST_FILE = DietPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ericzacharia.DietPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C08B5DF2620A1D300463F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JUWYS29JU;
+				INFOPLIST_FILE = DietPlanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ericzacharia.DietPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C08B5E12620A1D300463F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JUWYS29JU;
+				INFOPLIST_FILE = DietPlannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ericzacharia.DietPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietPlanner.app/DietPlanner";
+			};
+			name = Debug;
+		};
+		2C08B5E22620A1D300463F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JUWYS29JU;
+				INFOPLIST_FILE = DietPlannerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ericzacharia.DietPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DietPlanner.app/DietPlanner";
+			};
+			name = Release;
+		};
+		2C08B5E42620A1D300463F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JUWYS29JU;
+				INFOPLIST_FILE = DietPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ericzacharia.DietPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DietPlanner;
+			};
+			name = Debug;
+		};
+		2C08B5E52620A1D300463F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3JUWYS29JU;
+				INFOPLIST_FILE = DietPlannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ericzacharia.DietPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DietPlanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C08B5AB2620A1C100463F74 /* Build configuration list for PBXProject "DietPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C08B5DB2620A1D300463F74 /* Debug */,
+				2C08B5DC2620A1D300463F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C08B5DD2620A1D300463F74 /* Build configuration list for PBXNativeTarget "DietPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C08B5DE2620A1D300463F74 /* Debug */,
+				2C08B5DF2620A1D300463F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C08B5E02620A1D300463F74 /* Build configuration list for PBXNativeTarget "DietPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C08B5E12620A1D300463F74 /* Debug */,
+				2C08B5E22620A1D300463F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C08B5E32620A1D300463F74 /* Build configuration list for PBXNativeTarget "DietPlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C08B5E42620A1D300463F74 /* Debug */,
+				2C08B5E52620A1D300463F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C620CB22666E295003F9804 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C620CB32666E295003F9804 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C620CB22666E295003F9804 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2C08B5BC2620A1C100463F74 /* DietPlanner.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C08B5BD2620A1C100463F74 /* DietPlanner.xcdatamodel */,
+			);
+			currentVersion = 2C08B5BD2620A1C100463F74 /* DietPlanner.xcdatamodel */;
+			path = DietPlanner.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C08B5A82620A1C100463F74 /* Project object */;
+}
